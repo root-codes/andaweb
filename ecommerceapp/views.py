@@ -109,12 +109,11 @@ def checkout(request):
         address1 = request.POST.get('address1', '')
         address2 = request.POST.get('address2','')
         city = request.POST.get('city', '')
-        state = request.POST.get('state', '')
         zip_code = request.POST.get('zip_code', '')
         phone = request.POST.get('phone', '')
          
 
-        Order = Orders(items_json=items_json,name=name,amount=amount, email=email, address1=address1,address2=address2,city=city,state=state,zip_code=zip_code,phone=phone)
+        Order = Orders(items_json=items_json,name=name,amount=amount, email=email, address1=address1,address2=address2,city=city,zip_code=zip_code,phone=phone)
         print(amount)
         Order.save()
         update = OrderUpdate(order_id=Order.order_id,update_desc="the order has been placed")
