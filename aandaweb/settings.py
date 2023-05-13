@@ -106,8 +106,8 @@ USE_TZ = True
 #sending emails
 
 EMAIL_HOST='smtpout.secureserver.net'
-EMAIL_HOST_USER='muriithi.dennis@s.karu.ac.ke'
-EMAIL_HOST_PASSWORD='P1001638G21'
+EMAIL_HOST_USER='email'
+EMAIL_HOST_PASSWORD='your password'
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
