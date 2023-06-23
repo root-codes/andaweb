@@ -4,12 +4,12 @@
 
 ## First clone the repo in your local machine
 ```
-git clone https://github.com/root-codes/andaweb
+git clone https://github.com/root-codes/django_ecommerce
 ```
 ## change from your current working directory to the projects working directory
 
 ```
-cd andaweb
+cd django_ecommerce
 ```
 
 ## Now open vscode and install the requirements
